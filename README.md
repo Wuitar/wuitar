@@ -3,7 +3,7 @@
 [markdown工具](https://monodraw.helftone.com/)  
 ***
 #### TODO 加算器
-- [x] 整数四则运算
+- [x] 整数四则运算 v1.0
 - [ ] 小数
 - [ ] 括号
 - [ ] 嵌套括号
