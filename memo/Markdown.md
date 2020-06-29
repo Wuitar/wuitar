@@ -5,8 +5,8 @@
 ##### H5 title `##### contents`
 ###### H6 title `####### contents`
 
-*`*contents*`*  
-**Strong**  
+*italic* => `*contents*`  
+**strong** => `**contents**`  
 ~~delete line~~  
 
 <details><summary>collapsible section</summary><div>
