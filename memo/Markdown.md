@@ -7,7 +7,7 @@
 
 *italic* => `*contents*`  
 **strong** => `**contents**`  
-~~delete line~~  
+~~delete line~~ =>`~~contents~~`  
 
 <details><summary>collapsible section</summary><div>
 
