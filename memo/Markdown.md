@@ -7,6 +7,7 @@
 
 *italic* => `*contents*`  
 **strong** => `**contents**`  
+***italic strong*** => `***contents***`  
 ~~delete line~~ =>`~~contents~~`  
 
 <details><summary>collapsible section</summary><div>
@@ -30,3 +31,6 @@ int a = 0; //<div> とコードブロックの間には空白行が一つ以上�
 > reference
 >
 > `> contents`
+---
+[Google](https://www.google.co.jp/) `[表示テキスト](URL)`  
+https://www.google.co.jp/ `URL`  
