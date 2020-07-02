@@ -1,7 +1,11 @@
-MENU
-- [To Table](#Table) `[表示テキスト](anchor)`  
+# MENU
+- [To Base](#Base)`[表示テキスト](anchor)`  
+- [To Collapsible Section](#collapsible section)
+- [To List](#List)
+- [To Link](#Link)
+- [To Table](#Table) 
 
----
+## Base
 # H1 title `# contents`
 ## H2 title `## contents`
 ### H3 title `### contents`
@@ -9,11 +13,12 @@ MENU
 ##### H5 title `##### contents`
 ###### H6 title `####### contents`
 
-*italic* => `*contents*`  
-**strong** => `**contents**`  
-***italic strong*** => `***contents***`  
-~~delete line~~ =>`~~contents~~`  
+*italic*`*contents*`  
+**strong**`**contents**`  
+***italic strong***`***contents***`  
+~~delete line~~`~~contents~~`  
 
+## collapsible section
 <details>
   <summary>collapsible section</summary>
   <div>
@@ -33,6 +38,7 @@ int a = 0; //<div> とコードブロックの間には空白行が一つ以上�
   </div>
 </details>
 
+## List
 - ul
   - li **nest with two spaces**
     - li
@@ -58,12 +64,13 @@ int a = 0; //<div> とコードブロックの間には空白行が一つ以上�
 > reference
 >
 > `> contents`
----
+
+## Link
 [Google](https://www.google.co.jp/) `[表示テキスト](URL)`  
 https://www.google.co.jp/ `URL`  
 
----
-#### Table
+
+## Table
 |TH|TH|
 |--|--|
 |TD|TD|
