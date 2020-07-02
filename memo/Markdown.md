@@ -1,9 +1,10 @@
 # MENU
-- [To Base](#Base)`[表示テキスト](anchor)`  
+- [To Base](#Base)`[表示テキスト](anchor)`
 - [To Collapsible Section](#collapsible section)
 - [To List](#List)
 - [To Link](#Link)
 - [To Table](#Table) 
+- [To Collapsible Section](#collapsible section)
 
 ## Base
 # H1 title `# contents`
@@ -17,6 +18,9 @@
 **strong**`**contents**`  
 ***italic strong***`***contents***`  
 ~~delete line~~`~~contents~~`  
+> reference
+>
+> `> contents`
 
 ## collapsible section
 <details>
@@ -61,9 +65,6 @@ int a = 0; //<div> とコードブロックの間には空白行が一つ以上�
 1. ol
 1. ol
 
-> reference
->
-> `> contents`
 
 ## Link
 [Google](https://www.google.co.jp/) `[表示テキスト](URL)`  
