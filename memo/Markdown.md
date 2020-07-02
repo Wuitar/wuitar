@@ -4,6 +4,17 @@
 - [To List](#List)
 - [To Link](#Link)
 - [To Table](#Table) 
+<details>
+  <summary>Be careful</summary>
+  <div>
+    <ul>
+      <li>punctuation marks will be dropped</li>
+      <li>leading white spaces will be dropped</li>
+      <li>upper case will be converted to lower</li>
+      <li>spaces between letters will be converted to -</li>
+    </ul>
+  </div>
+</details>
 
 ## Base
 # H1 title `# contents`
