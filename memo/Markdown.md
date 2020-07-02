@@ -14,18 +14,41 @@ MENU
 ***italic strong*** => `***contents***`  
 ~~delete line~~ =>`~~contents~~`  
 
-<details><summary>collapsible section</summary><div>
+<details>
+  <summary>collapsible section</summary>
+  <div>
 
 ```java
 int a = 0; //<div> とコードブロックの間には空白行が一つ以上必要です。
 ```
-</div></details>
+```html
+  <details>
+    <summary>title</summary>
+    <div>
+    
+    contents
+    </div>
+  </details>
+```
+  </div>
+</details>
 
 - ul
   - li **nest with two spaces**
     - li
       - li
   - li
+<details><summary>code</summary><div>
+
+```
+- ul
+  - li
+    - li
+      - li
+  - li
+```
+</div></details>  
+
 1. ol with number
     1. li **nest with four spaces**
     1. li
