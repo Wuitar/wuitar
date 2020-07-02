@@ -1,10 +1,9 @@
 # MENU
 - [To Base](#Base)`[表示テキスト](anchor)`
-- [To Collapsible Section](#collapsible section)
+- [To Collapse](#Collapse)
 - [To List](#List)
 - [To Link](#Link)
 - [To Table](#Table) 
-- [To Collapsible Section](#collapsible section)
 
 ## Base
 # H1 title `# contents`
@@ -22,7 +21,7 @@
 >
 > `> contents`
 
-## collapsible section
+## Collapse
 <details>
   <summary>collapsible section</summary>
   <div>
