@@ -13,9 +13,67 @@
 <details>
   <summary>详细</summary>
   <div>
-    <ol>
-      <li>确保您在存储库目录中。<li>
-      <li>sss</li>
-    </ol>
+  <ol>
+  <li>确保您在存储库目录中。
+    
+    $ cd ~/<repo_directory>
+   例如，如果您的存储库名称为my-repository，则结果可能看起来像这样：
+ 
+    computer:$ cd ~/my-repository
+    computer:my-repository emmap$
+  </li>
+  <li>从Bitbucket中提取存储库的最新版本。
+  
+    $ git pull
+  </li>
+  <li>签出源分支。
+  
+    $ git checkout <feature_branch>
+  </li>
+  <li>将目标分支拉入源分支。此时，拉动目的地将尝试将其与来源合并并显示所有冲突。
+  
+    $ git pull origin <destination_branch>
+   例如，如果目标分支为master，则结果将如下所示：
+   
+    computer:my-repository emmap$ git pull origin master
+    * branch            master     -> FETCH_HEAD
+    Auto-merging team_contact_info.txt
+    CONFLICT (content): Merge conflict in team_contact_info.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+   当您在本地合并有冲突的两个分支时，打开编辑器时，文件中会出现冲突标记。
+  </li>
+  <li>打开文件以解决冲突。您可以使用命令行执行此操作，也可以导航到文件。  
+   该文件将如下所示：
+   ![mergeconflict_git_branches](./mergeconflict_git_branches.png)
+    
+    $ git pull origin <destination_branch>
+   **A**.  HEAD分支中更改的开始。在这种情况下，HEAD表示您要合并到其中的活动分支。
+   
+   **B**.  活动分支中更改的结束和非活动分支中更改的开始。
+   
+   **C**.  非活动分支中更改的结束。
+  </li>
+  <li>通过执行以下操作解决冲突：
+   1.删除由Git添加的更改名称（ 上面的屏幕快照中的A，  B和  C）。
+  
+   2.更正内容。
+   
+   3.保存文件。
+   
+   结果将如下所示：
+   
+   ![mergeconflict_git_branches_resolved.png](./mergeconflict_git_branches_resolved.png)
+  </li>
+  <li>添加并提交更改。
+  
+    $ git add <filename>
+    $ git commit -m'commit message'
+  </li>
+    <li>将更改推送到遥控器。
+  
+    git push origin <feature_branch>
+  </li>
+  </ol>
+  当您检查拉取请求时，拉取请求仍将处于打开状态，并且您将不再看到任何合并冲突。
   </div>
 </details>
