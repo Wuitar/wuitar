@@ -44,6 +44,7 @@
   </li>
   <li>打开文件以解决冲突。您可以使用命令行执行此操作，也可以导航到文件。  
    该文件将如下所示：
+  
    ![mergeconflict_git_branches](./mergeconflict_git_branches.png)
     
     $ git pull origin <destination_branch>
