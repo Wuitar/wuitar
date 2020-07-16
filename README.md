@@ -3,6 +3,9 @@
 [markdown工具](https://monodraw.helftone.com/)  
 [Oh,shit,git!](http://ohshitgit.com/)
 ***
+#### book list
+* Visual Studio Code 权威指南
+***
 ITスキル標準（ITSS） 
 http://www.ipa.go.jp/jinzai/itss/  
 資格の申し込み
