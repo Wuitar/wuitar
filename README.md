@@ -5,6 +5,7 @@
 ***
 #### book list
 * Visual Studio Code 权威指南
+* https://www.jianshu.com/p/444f299ba066
 ***
 ITスキル標準（ITSS） 
 http://www.ipa.go.jp/jinzai/itss/  
